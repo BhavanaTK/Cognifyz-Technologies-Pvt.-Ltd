@@ -1,86 +1,120 @@
-🍽️ Exploratory Data Analysis of the Zomato Restaurant Dataset
-📌 Project Overview
+# 🍽️ Zomato Restaurant Data Analysis & EDA
 
-This project presents a comprehensive Exploratory Data Analysis (EDA) of the Zomato Restaurant Dataset, completed as part of my Data Analysis 
-Internship at Cognifyz IT Solutions. The objective was to analyze restaurant data and extract meaningful business insights using Python-based data 
-analysis and visualization techniques.
+## 📌 Project Overview
 
-The dataset contains 9,551 restaurant records with 21 features, including restaurant names, cuisines, cities, ratings, pricing, online delivery, table booking, 
-customer votes, and geographic coordinates. Through systematic analysis, this project identifies trends in customer preferences, restaurant performance, pricing 
-strategies, and service availability.
+This project focuses on performing **Exploratory Data Analysis (EDA)** on the Zomato Restaurant Dataset to identify meaningful insights about restaurants, cuisines, customer ratings, pricing, popularity, and service availability.
 
-🎯 Objectives
-Perform data cleaning and preprocessing.
-Explore restaurant distribution across different cities.
-Identify the most popular cuisines.
-Analyze customer ratings and voting patterns.
-Study the impact of online delivery on restaurant ratings.
-Examine pricing patterns and restaurant service availability.
-Identify top-performing restaurant chains.
-Visualize restaurant locations using interactive maps.
-Generate actionable business insights from real-world data.
-🛠️ Technologies Used
-Python
-Jupyter Notebook
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Folium
-📊 Project Workflow
-🔹 Data Preprocessing
-Loaded and explored the dataset.
-Checked data types and missing values.
-Cleaned incomplete records.
-Prepared categorical data for analysis.
-🔹 Exploratory Data Analysis
+This project was completed as part of my **Data Analysis Internship at Cognifyz IT Solutions** using Python-based data analysis and visualization techniques.
 
-The project is divided into three progressive levels:
+The dataset contains **9,551 restaurant records with 21 features**, including restaurant names, cuisines, cities, ratings, votes, price ranges, online delivery, table booking, and geographical coordinates.
 
-✅ Level 1
-Top cuisines analysis
-City-wise restaurant distribution
-Price range distribution
-Online delivery vs restaurant ratings
-✅ Level 2
-Rating distribution analysis
-Cuisine combinations
-Geographic visualization using Folium
-Restaurant chain analysis
-✅ Level 3
-Votes analysis
-Correlation between votes and ratings
-Price range vs online delivery
-Price range vs table booking
-Business insight generation
-📈 Key Insights
-North Indian cuisine is the most common cuisine in the dataset.
-New Delhi contains the highest number of listed restaurants.
-Nearly 80% of restaurants belong to the budget and moderate price categories.
-Restaurants offering online delivery generally receive higher customer ratings than those without delivery services.
-Restaurant popularity (votes) has a weak positive correlation with customer ratings.
-Premium restaurants are more likely to provide table booking, while budget restaurants focus more on online delivery.
-Restaurant success depends on multiple factors including popularity, customer satisfaction, pricing strategy, and service offerings.
-📌 Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Data Wrangling
-Statistical Analysis
-Correlation Analysis
-Business Insight Generation
-Data Visualization
-Geospatial Visualization
-Python Programming
-Business Analytics
-📁 Repository Contents
+---
+
+## 🎯 Objectives
+
+- Perform data cleaning and preprocessing.
+- Analyze restaurant distribution across cities.
+- Identify popular cuisines.
+- Analyze customer ratings and voting patterns.
+- Study restaurant pricing and price ranges.
+- Analyze online delivery and table booking availability.
+- Identify popular restaurant chains.
+- Study relationships between ratings, votes, pricing, and services.
+- Create geographical visualizations.
+- Generate meaningful business insights.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Folium
+
+---
+
+## 📊 Project Workflow
+
+### 🔹 Data Preprocessing
+
+- Loaded and explored the dataset.
+- Checked data types and dataset structure.
+- Identified and handled missing values.
+- Cleaned incomplete records.
+- Prepared categorical and numerical data for analysis.
+
+### 🔹 Level 1 – Basic Analysis
+
+- Analyzed the most popular cuisines.
+- Studied restaurant distribution across cities.
+- Analyzed restaurant price ranges.
+- Compared online delivery availability with restaurant ratings.
+
+### 🔹 Level 2 – Intermediate Analysis
+
+- Analyzed restaurant rating distributions.
+- Studied common cuisine combinations.
+- Created geographical visualizations using Folium.
+- Analyzed popular restaurant chains.
+
+### 🔹 Level 3 – Advanced Analysis
+
+- Analyzed the relationship between votes and ratings.
+- Studied price range versus online delivery.
+- Analyzed price range versus table booking.
+- Generated business-oriented insights from the data.
+
+---
+
+## 📈 Key Insights
+
+- **North Indian cuisine** is one of the most common cuisines in the dataset.
+- **New Delhi** has the highest number of listed restaurants.
+- A large proportion of restaurants fall within the **budget and moderate price categories**.
+- Restaurants offering **online delivery** generally show higher customer ratings.
+- Votes and ratings have a **weak positive relationship**.
+- Premium restaurants are more likely to provide **table booking**.
+- Budget restaurants show greater emphasis on **online delivery**.
+- Restaurant performance depends on multiple factors such as **pricing, customer satisfaction, popularity, and service availability**.
+
+---
+
+## 🗺️ Geographical Analysis
+
+**Folium** was used to create interactive maps showing the geographical distribution of restaurants.
+
+The map helps visualize restaurant concentration and identify areas with a higher density of restaurants.
+
+---
+
+## 📌 Skills Demonstrated
+
+- Data Cleaning
+- Data Preprocessing
+- Data Wrangling
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Correlation Analysis
+- Data Visualization
+- Geospatial Visualization
+- Business Analytics
+- Business Insight Generation
+- Python Programming
+
+---
+
+## 📁 Repository Structure
+
+```text
+Zomato-EDA/
+│
 ├── Dataset.csv
 ├── Zomato_EDA.ipynb
 ├── Internship_Project_Report.pdf
 ├── restaurant_map.html
 ├── Images/
 └── README.md
-🚀 Outcome
-
-This project demonstrates my ability to transform raw business data into meaningful insights using Python and modern data analysis libraries. 
-It strengthened my skills in data preprocessing, visualization, statistical analysis, and communicating analytical findings through a structured, 
-business-oriented approach.
